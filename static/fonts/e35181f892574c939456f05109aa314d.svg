@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <title>502 - No server or forwarder data received (Privoxy@DESKTOP-QGG0FJT)</title>
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="shortcut icon" href="http://config.privoxy.org/error-favicon.ico">
+  <style type="text/css">
+
+/*
+ * CSS for Privoxy CGI and script output
+ *
+ * $Id: cgi-style.css,v 1.14 2011/09/04 11:09:40 fabiankeil Exp $
+ */
+
+/*
+ * General rules: Font, Color, Headings, Margins, Links
+ */
+body,td,th { font-family: arial, helvetica, helv, sans-serif; }
+body { background-color: #ffffff; color: #000000; }
+
+h1 { font-size: 140%; margin: 0px; }
+h2 { font-size: 120%; margin: 0px; }
+h3 { font-size: 110%; margin: 0px; }
+
+p,pre  { margin-left: 15px; }
+li { margin: 2px 15px; }
+dl { margin: 2px 15px; }
+
+a:link    { color: #0000dd; text-decoration: none; }
+a:visited { color: #330099; text-decoration: none; }
+a:active  { color: #3333ff; text-decoration: none; }
+
+/*
+ * Boxen as Table elements:
+ */
+td.title   { border: solid black 1px; background-color: #dddddd; }
+td.box     { border: solid black 1px; background-color: #eeeeee; }
+td.info    { border: solid black 1px; background-color: #ccccff; }
+td.warning { border: solid black 1px; background-color: #ffdddd; }
+
+/*
+ * Special Table Boxen: for nesting, naked container and for
+ * the Status field in CGI Output:
+ */
+td.wrapbox { border: solid black 1px; padding: 5px; }
+td.container { padding: 0px; }
+td.status  { border: solid black 1px; background-color: #ff0000; color: #ffffff; font-size: 300%; font-weight: bolder; }
+
+/*
+ * Same Boxen as <div>s:
+ */
+div.title    { border: solid black 1px; background-color: #dddddd; margin: 20px; padding: 20px; }
+div.box      { border: solid black 1px; background-color: #eeeeee; margin: 20px; padding: 20px; }
+div.info     { border: solid black 1px; background-color: #ccccff; margin: 20px; padding: 20px; }
+div.warning  { border: solid black 1px; background-color: #ffdddd; margin: 20px; padding: 20px; }
+div.wrapbox  { border: solid black 1px;                            margin: 20px; padding:  5px; }
+
+
+/*
+ * Bold definitions in <dl>s, grey BG for table headings, transparent (no-bordered) table
+ */
+dt { font-weight: bold; }
+th { background-color: #dddddd; }
+table.transparent { border-style: none}
+
+/*
+ * Special purpose paragraphs: Small for page footers,
+ * Important for quoting wrong or dangerous examples,
+ * Whiteframed for the toggle?mini=y CGI
+ */
+p.small { font-size: 10px; margin: 0px; }
+p.important { border: solid black 1px; background-color: #ffdddd; font-weight: bold; padding: 2px; }
+p.whiteframed { margin: 5px; padding: 5px; border: solid black 1px; text-align: center; background-color: #eeeeee; }
+
+/*
+ * Links as buttons:
+ */
+
+td.buttons {
+  padding: 2px;
+}
+
+a.cmd, td.indentbuttons a, td.buttons a {
+  white-space: nowrap;
+  width: auto;
+  padding: 2px;
+  background-color: #dddddd;
+  color:            #000000;
+  text-decoration: none;
+  border-top:    1px solid #ffffff;
+  border-left:   1px solid #ffffff;
+  border-bottom: 1px solid #000000;
+  border-right:  1px solid #000000;
+}
+a.cmd:hover, td.indentbuttons a:hover, td.buttons a:hover {
+  background-color: #eeeeee;
+}
+a.cmd:active, td.indentbuttons a:active, td.buttons a:active {
+  border-top:    1px solid #000000;
+  border-left:   1px solid #000000;
+  border-bottom: 1px solid #ffffff;
+  border-right:  1px solid #ffffff;
+}
+
+
+/*
+ * Special red emphasis:
+ */
+em.warning, strong.warning { color: #ff0000 }
+
+/*
+ * In show-status we use tables directly behind headlines
+ * and for some reason or another the headlines are set to
+ * "margin:0" and leave the tables no air to breath.
+ *
+ * A proper fix would be to replace or remove the "margin:0",
+ * but as this affects every cgi page we do it another time
+ * and use this workaround until then.
+ */
+.box table { margin-top: 1em; }
+
+/*
+ * Let the URL and pattern input fields scale with the browser
+ * width and try to prevent vertical scroll bars if the width
+ * is less than 80 characters.
+ */
+input.url, input.pattern { width: 95%; }
+  </style>
+</head>
+
+<body>
+
+  <table summary="" cellpadding="20" cellspacing="10" border="0" width="100%">
+    <tr>
+      <td class="status">
+        502
+      </td>
+      <td class="title" style="width: 100%">
+
+        <h1>
+          This is <a href="https://www.privoxy.org/">Privoxy</a> 3.0.26 on DESKTOP-QGG0FJT (127.0.0.1), port 25378<!--  -->
+        </h1>
+
+      </td>
+    </tr>
+
+<!--  -->
+
+    <tr>
+      <td class="warning" colspan=2>
+        <h2>No server or forwarder data received</h2>
+          <p>Your request for <a href="http://www.playsportgames.com/wp-content/themes/jupiter/assets/stylesheet/images/fancy-title-pattern.png)%20left%20center%20repeat-x%7D.mk-fancy-title.pattern-style.align-left%20span%7Bpadding:0%206px%200%200%7D.mk-fancy-title.pattern-style.align-right%20span%7Bpadding:0%200%200%206px%7D.mk-fancy-title.pattern-style.align-center%20span%7Bpadding:0%206px%7D.mk-fancy-title.pattern-style.color-gradient%20span%7Bposition:relative%7D.mk-fancy-title.pattern-style.color-gradient%20span:after%7Bcontent:;width:100%25;height:100%25;display:block;position:absolute;top:0;left:0;z-index:1%7D.mk-fancy-title.pattern-style.color-gradient%20span%20i%7Bposition:relative;z-index:2%7D.mk-fancy-title.shortcode-heading%7Bfont-weight:700;font-size:14px;padding-top:5px%7D.mk-fancy-title.pattern-style%20p%7Bdisplay:inline%7D.mk-fancy-title%20p%7Bmargin-bottom:0!important;font-family:inherit!important%7D.mk-fancy-title.pattern-style%20span%7Bpadding-right:10px%7D@media%20handheld,only%20screen%20and%20(max-width:767px)%7B.mk-fancy-title%7Btext-align:center!important%7D.mk-fancy-title.pattern-style%20span%7Bpadding:0%208px!important%7D.mk-fancy-title.mk-force-responsive%7Bfont-size:36px!important%7D%7D.mk-title-box%7Bline-height:100%25%7D.mk-title-box%20p%7Bmargin:0%7D.mk-title-box%20span%7Bpadding:4px%200%7D.mk-slideshow-box%20.mk-fancy-title%20span%7Bdisplay:inline-block;padding-top:20px%7D.mk-fancy-title%7Bmargin-bottom:18px%7D.mk-fancy-title.pattern-style%7Bbackground:url(../images/fancy-title-pattern.png)%20left%20center%20repeat-x%7D.mk-fancy-title.pattern-style.align-left%20span%7Bpadding:0%206px%200%200%7D.mk-fancy-title.pattern-style.align-right%20span%7Bpadding:0%200%200%206px%7D.mk-fancy-title.pattern-style.align-center%20span%7Bpadding:0%206px%7D.mk-fancy-title.color-gradient%20span%20i%7Bdisplay:table;font-style:normal%7D.mk-fancy-title.pattern-style.color-gradient%20span%7Bposition:relative%7D.mk-fancy-title.pattern-style.color-gradient%20span:after%7Bcontent:;width:100%25;height:100%25;display:block;position:absolute;top:0;left:0;z-index:1%7D.mk-fancy-title.color-gradient.align-left%20span%20i%7Bmargin:0%20auto%200%200%7D.mk-fancy-title.color-gradient.align-center%20span%20i%7Bmargin:0%20auto%200%7D.mk-fancy-title.color-gradient.align-right%20span%20i%7Bmargin:0%200%200%20auto%7D.mk-fancy-title.color-gradient%20span%20i%7Bposition:relative;z-index:2%7D.mk-fancy-title.shortcode-heading%7Bfont-weight:700;font-size:14px%7D.mk-fancy-title.pattern-style%20p%7Bdisplay:inline%7D.mk-fancy-title%20p%7Bmargin-bottom:0!important%7D@media%20handheld,only%20screen%20and%20(max-width:767px)%7B.mk-fancy-title%7Btext-align:center!important%7D.mk-fancy-title.pattern-style%20span%7Bpadding:0%208px!important%7D.mk-fancy-title.mk-force-responsive%7Bfont-size:36px!important%7D%7D.mk-title-box%7Bline-height:100%25%7D.mk-title-box%20p%7Bmargin:0%7D.mk-title-box%20span%7Bpadding:4px%200%7D.font-weight-l%7Bfont-weight:lighter%7D.font-weight-n%7Bfont-weight:400%7D.font-weight-b%7Bfont-weight:700%7D.font-weight-100%7Bfont-weight:100%7D.font-weight-200%7Bfont-weight:200%7D.font-weight-300%7Bfont-weight:300%7D.font-weight-400%7Bfont-weight:400%7D.font-weight-500%7Bfont-weight:500%7D.font-weight-600%7Bfont-weight:600%7D.font-weight-700%7Bfont-weight:700%7D.font-weight-800%7Bfont-weight:800%7D.font-weight-900%7Bfont-weight:900%7D.bold%7Bfont-weight:700%7D.italic%7Bfont-style:italic%7D.uppercase%7Btext-transform:uppercase%7D.text-left%7Btext-align:left%7D.text-right%7Btext-align:right%7D.text-center%7Btext-align:center%7D.block%7Bdisplay:block%7D.inline%7Bdisplay:inline-block%7D.table%7Bdisplay:table%7D.table-cell%7Bdisplay:table-cell%7D.flex%7Bdisplay:-webkit-box;display:-ms-flexbox;display:flex%7D.flex-column%7B-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column%7D.flex-wrap%7B-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row;-ms-flex-wrap:wrap;flex-wrap:wrap%7D.flex-items-center%7B-webkit-box-align:center;-ms-flex-align:center;align-items:center%7D.flex-items-baseline%7B-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline%7D.flex-items-start%7B-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start%7D.flex-items-end%7B-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end%7D.flex-items-stretch%7B-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch%7D.flex-self-center%7B-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center%7D.flex-self-baseline%7B-ms-flex-item-align:baseline;align-self:baseline%7D.flex-self-start%7B-ms-flex-item-align:start;align-self:flex-start%7D.flex-self-end%7B-ms-flex-item-align:end;align-self:flex-end%7D.flex-self-stretch%7B-ms-flex-item-align:stretch;-ms-grid-row-align:stretch;align-self:stretch%7D.flex-justify%7B-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between%7D.flex-center%7B-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center%7D.flex-auto%7B-webkit-box-flex:1;-ms-flex:1%201%20auto;flex:1%201%20auto%7D.flex-grow%7B-webkit-box-flex:1;-ms-flex:1%200%20auto;flex:1%200%20auto%7D.flex-none%7B-webkit-box-flex:0;-ms-flex:none;flex:none%7D.flex-first%7B-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1%7D.flex-last%7B-webkit-box-ordinal-group:100000;-ms-flex-order:99999;order:99999%7D.width-50%7Bwidth:50px%7D.width-full%7Bwidth:100%25%7D.width-x2%7Bwidth:200%25%7D.height-50%7Bheight:50px%7D.height-full%7Bheight:100%25%7D.left%7Bfloat:left%7D.right%7Bfloat:right%7D.clear:after,.clear:before%7Bcontent:%20;display:table%7D.clear:after%7Bclear:both%7D.relative%7Bposition:relative%7D.absolute%7Bposition:absolute%7D.mk-fixed%7Bposition:fixed%7D.z1%7Bz-index:1%7D.z2%7Bz-index:2%7D.z3%7Bz-index:3%7D.z4%7Bz-index:4%7D.z5%7Bz-index:5%7D.z999%7Bz-index:999%7D.pointer%7Bpointer-events:auto%7D.no-pointer%7Bpointer-events:none%7D.overflow-auto%7Boverflow:auto%7D.no-overflow%7Boverflow:hidden%7D.no-overflow-x%7Boverflow-x:hidden%7D.no-overflow-y%7Boverflow-y:hidden%7D.backface%7B-webkit-backface-visibility:visible;backface-visibility:visible%7D.no-backface%7B-webkit-backface-visibility:hidden;backface-visibility:hidden%7D.perspective%7B-webkit-transform:perspective(1000px);transform:perspective(1000px);-webkit-transform-style:preserve-3d;transform-style:preserve-3d%7D.origin-center%7B-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center%7D.fold-back-horizontal%7B-webkit-transform:translateX(-100%25)%20rotateY(-180deg);transform:translateX(-100%25)%20rotateY(-180deg)%7D.fold-back-vertical%7B-webkit-transform:translateX(-100%25)%20rotateX(-180deg);transform:translateX(-100%25)%20rotateX(-180deg)%7D.bezier-1%7Btransition:all%20.5s%20cubic-bezier(.645,.045,.355,1)%7D.left-0%7Bleft:0%7D.left-5%7Bleft:5px%7D.left-10%7Bleft:10px%7D.right-0%7Bright:0%7D.right-5%7Bright:5px%7D.right-10%7Bright:10px%7D.top-0%7Btop:0%7D.top-5%7Btop:5px%7D.top-10%7Btop:10px%7D.bottom-0%7Bbottom:0%7D.bottom-5%7Bbottom:5px%7D.bottom-10%7Bbottom:10px%7D.padding-10-pr%7Bpadding:10%25%7D.padding-x-10-pr%7Bpadding-left:10%25;padding-right:10%25%7D.padding-10%7Bpadding:10px%7D.padding-x-10%7Bpadding-left:10px;padding-right:10px%7D.padding-y-10%7Bpadding-top:10px;padding-bottom:10px%7D.padding-20%7Bpadding:20px%7D.padding-x-20%7Bpadding-left:20px;padding-right:20px%7D.padding-y-20%7Bpadding-top:20px;padding-bottom:20px%7D.margin-t-20%7Bmargin-top:20px%7D.margin-auto%7Bmargin:0%20auto%7D.is-hidden%7Bdisplay:none;visibility:hidden%7D.is-vis-hidden%7Bpoonter-events:none;visibility:hidden%7D.a_width-40%7Bwidth:40px%7D.a_width-100%7Bwidth:100px%7D.a_width-1000%7Bwidth:1000px%7D.a_width-100-per%7Bwidth:100%25%7D.a_width-auto%7Bwidth:auto%7D.a_color-success%7Bcolor:"><b>http://www.playsportgames.com/wp-content/themes/jupiter/assets/stylesheet/images/fancy-title-pattern.png)%20left%20center%20repeat-x%7D.mk-fancy-title.pattern-style.align-left%20span%7Bpadding:0%206px%200%200%7D.mk-fancy-title.pattern-style.align-right%20span%7Bpadding:0%200%200%206px%7D.mk-fancy-title.pattern-style.align-center%20span%7Bpadding:0%206px%7D.mk-fancy-title.pattern-style.color-gradient%20span%7Bposition:relative%7D.mk-fancy-title.pattern-style.color-gradient%20span:after%7Bcontent:;width:100%25;height:100%25;display:block;position:absolute;top:0;left:0;z-index:1%7D.mk-fancy-title.pattern-style.color-gradient%20span%20i%7Bposition:relative;z-index:2%7D.mk-fancy-title.shortcode-heading%7Bfont-weight:700;font-size:14px;padding-top:5px%7D.mk-fancy-title.pattern-style%20p%7Bdisplay:inline%7D.mk-fancy-title%20p%7Bmargin-bottom:0!important;font-family:inherit!important%7D.mk-fancy-title.pattern-style%20span%7Bpadding-right:10px%7D@media%20handheld,only%20screen%20and%20(max-width:767px)%7B.mk-fancy-title%7Btext-align:center!important%7D.mk-fancy-title.pattern-style%20span%7Bpadding:0%208px!important%7D.mk-fancy-title.mk-force-responsive%7Bfont-size:36px!important%7D%7D.mk-title-box%7Bline-height:100%25%7D.mk-title-box%20p%7Bmargin:0%7D.mk-title-box%20span%7Bpadding:4px%200%7D.mk-slideshow-box%20.mk-fancy-title%20span%7Bdisplay:inline-block;padding-top:20px%7D.mk-fancy-title%7Bmargin-bottom:18px%7D.mk-fancy-title.pattern-style%7Bbackground:url(../images/fancy-title-pattern.png)%20left%20center%20repeat-x%7D.mk-fancy-title.pattern-style.align-left%20span%7Bpadding:0%206px%200%200%7D.mk-fancy-title.pattern-style.align-right%20span%7Bpadding:0%200%200%206px%7D.mk-fancy-title.pattern-style.align-center%20span%7Bpadding:0%206px%7D.mk-fancy-title.color-gradient%20span%20i%7Bdisplay:table;font-style:normal%7D.mk-fancy-title.pattern-style.color-gradient%20span%7Bposition:relative%7D.mk-fancy-title.pattern-style.color-gradient%20span:after%7Bcontent:;width:100%25;height:100%25;display:block;position:absolute;top:0;left:0;z-index:1%7D.mk-fancy-title.color-gradient.align-left%20span%20i%7Bmargin:0%20auto%200%200%7D.mk-fancy-title.color-gradient.align-center%20span%20i%7Bmargin:0%20auto%200%7D.mk-fancy-title.color-gradient.align-right%20span%20i%7Bmargin:0%200%200%20auto%7D.mk-fancy-title.color-gradient%20span%20i%7Bposition:relative;z-index:2%7D.mk-fancy-title.shortcode-heading%7Bfont-weight:700;font-size:14px%7D.mk-fancy-title.pattern-style%20p%7Bdisplay:inline%7D.mk-fancy-title%20p%7Bmargin-bottom:0!important%7D@media%20handheld,only%20screen%20and%20(max-width:767px)%7B.mk-fancy-title%7Btext-align:center!important%7D.mk-fancy-title.pattern-style%20span%7Bpadding:0%208px!important%7D.mk-fancy-title.mk-force-responsive%7Bfont-size:36px!important%7D%7D.mk-title-box%7Bline-height:100%25%7D.mk-title-box%20p%7Bmargin:0%7D.mk-title-box%20span%7Bpadding:4px%200%7D.font-weight-l%7Bfont-weight:lighter%7D.font-weight-n%7Bfont-weight:400%7D.font-weight-b%7Bfont-weight:700%7D.font-weight-100%7Bfont-weight:100%7D.font-weight-200%7Bfont-weight:200%7D.font-weight-300%7Bfont-weight:300%7D.font-weight-400%7Bfont-weight:400%7D.font-weight-500%7Bfont-weight:500%7D.font-weight-600%7Bfont-weight:600%7D.font-weight-700%7Bfont-weight:700%7D.font-weight-800%7Bfont-weight:800%7D.font-weight-900%7Bfont-weight:900%7D.bold%7Bfont-weight:700%7D.italic%7Bfont-style:italic%7D.uppercase%7Btext-transform:uppercase%7D.text-left%7Btext-align:left%7D.text-right%7Btext-align:right%7D.text-center%7Btext-align:center%7D.block%7Bdisplay:block%7D.inline%7Bdisplay:inline-block%7D.table%7Bdisplay:table%7D.table-cell%7Bdisplay:table-cell%7D.flex%7Bdisplay:-webkit-box;display:-ms-flexbox;display:flex%7D.flex-column%7B-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column%7D.flex-wrap%7B-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row;-ms-flex-wrap:wrap;flex-wrap:wrap%7D.flex-items-center%7B-webkit-box-align:center;-ms-flex-align:center;align-items:center%7D.flex-items-baseline%7B-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline%7D.flex-items-start%7B-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start%7D.flex-items-end%7B-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end%7D.flex-items-stretch%7B-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch%7D.flex-self-center%7B-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center%7D.flex-self-baseline%7B-ms-flex-item-align:baseline;align-self:baseline%7D.flex-self-start%7B-ms-flex-item-align:start;align-self:flex-start%7D.flex-self-end%7B-ms-flex-item-align:end;align-self:flex-end%7D.flex-self-stretch%7B-ms-flex-item-align:stretch;-ms-grid-row-align:stretch;align-self:stretch%7D.flex-justify%7B-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between%7D.flex-center%7B-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center%7D.flex-auto%7B-webkit-box-flex:1;-ms-flex:1%201%20auto;flex:1%201%20auto%7D.flex-grow%7B-webkit-box-flex:1;-ms-flex:1%200%20auto;flex:1%200%20auto%7D.flex-none%7B-webkit-box-flex:0;-ms-flex:none;flex:none%7D.flex-first%7B-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1%7D.flex-last%7B-webkit-box-ordinal-group:100000;-ms-flex-order:99999;order:99999%7D.width-50%7Bwidth:50px%7D.width-full%7Bwidth:100%25%7D.width-x2%7Bwidth:200%25%7D.height-50%7Bheight:50px%7D.height-full%7Bheight:100%25%7D.left%7Bfloat:left%7D.right%7Bfloat:right%7D.clear:after,.clear:before%7Bcontent:%20;display:table%7D.clear:after%7Bclear:both%7D.relative%7Bposition:relative%7D.absolute%7Bposition:absolute%7D.mk-fixed%7Bposition:fixed%7D.z1%7Bz-index:1%7D.z2%7Bz-index:2%7D.z3%7Bz-index:3%7D.z4%7Bz-index:4%7D.z5%7Bz-index:5%7D.z999%7Bz-index:999%7D.pointer%7Bpointer-events:auto%7D.no-pointer%7Bpointer-events:none%7D.overflow-auto%7Boverflow:auto%7D.no-overflow%7Boverflow:hidden%7D.no-overflow-x%7Boverflow-x:hidden%7D.no-overflow-y%7Boverflow-y:hidden%7D.backface%7B-webkit-backface-visibility:visible;backface-visibility:visible%7D.no-backface%7B-webkit-backface-visibility:hidden;backface-visibility:hidden%7D.perspective%7B-webkit-transform:perspective(1000px);transform:perspective(1000px);-webkit-transform-style:preserve-3d;transform-style:preserve-3d%7D.origin-center%7B-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center%7D.fold-back-horizontal%7B-webkit-transform:translateX(-100%25)%20rotateY(-180deg);transform:translateX(-100%25)%20rotateY(-180deg)%7D.fold-back-vertical%7B-webkit-transform:translateX(-100%25)%20rotateX(-180deg);transform:translateX(-100%25)%20rotateX(-180deg)%7D.bezier-1%7Btransition:all%20.5s%20cubic-bezier(.645,.045,.355,1)%7D.left-0%7Bleft:0%7D.left-5%7Bleft:5px%7D.left-10%7Bleft:10px%7D.right-0%7Bright:0%7D.right-5%7Bright:5px%7D.right-10%7Bright:10px%7D.top-0%7Btop:0%7D.top-5%7Btop:5px%7D.top-10%7Btop:10px%7D.bottom-0%7Bbottom:0%7D.bottom-5%7Bbottom:5px%7D.bottom-10%7Bbottom:10px%7D.padding-10-pr%7Bpadding:10%25%7D.padding-x-10-pr%7Bpadding-left:10%25;padding-right:10%25%7D.padding-10%7Bpadding:10px%7D.padding-x-10%7Bpadding-left:10px;padding-right:10px%7D.padding-y-10%7Bpadding-top:10px;padding-bottom:10px%7D.padding-20%7Bpadding:20px%7D.padding-x-20%7Bpadding-left:20px;padding-right:20px%7D.padding-y-20%7Bpadding-top:20px;padding-bottom:20px%7D.margin-t-20%7Bmargin-top:20px%7D.margin-auto%7Bmargin:0%20auto%7D.is-hidden%7Bdisplay:none;visibility:hidden%7D.is-vis-hidden%7Bpoonter-events:none;visibility:hidden%7D.a_width-40%7Bwidth:40px%7D.a_width-100%7Bwidth:100px%7D.a_width-1000%7Bwidth:1000px%7D.a_width-100-per%7Bwidth:100%25%7D.a_width-auto%7Bwidth:auto%7D.a_color-success%7Bcolor:</b></a>
+          could not be fulfilled, because the connection to <b>www.playsportgames.com</b> (127.0.0.1) has been closed
+          before Privoxy received any data for this request.
+          </p>
+          <p>This is often a temporary failure, so you might just
+            <a href="http://www.playsportgames.com/wp-content/themes/jupiter/assets/stylesheet/images/fancy-title-pattern.png)%20left%20center%20repeat-x%7D.mk-fancy-title.pattern-style.align-left%20span%7Bpadding:0%206px%200%200%7D.mk-fancy-title.pattern-style.align-right%20span%7Bpadding:0%200%200%206px%7D.mk-fancy-title.pattern-style.align-center%20span%7Bpadding:0%206px%7D.mk-fancy-title.pattern-style.color-gradient%20span%7Bposition:relative%7D.mk-fancy-title.pattern-style.color-gradient%20span:after%7Bcontent:;width:100%25;height:100%25;display:block;position:absolute;top:0;left:0;z-index:1%7D.mk-fancy-title.pattern-style.color-gradient%20span%20i%7Bposition:relative;z-index:2%7D.mk-fancy-title.shortcode-heading%7Bfont-weight:700;font-size:14px;padding-top:5px%7D.mk-fancy-title.pattern-style%20p%7Bdisplay:inline%7D.mk-fancy-title%20p%7Bmargin-bottom:0!important;font-family:inherit!important%7D.mk-fancy-title.pattern-style%20span%7Bpadding-right:10px%7D@media%20handheld,only%20screen%20and%20(max-width:767px)%7B.mk-fancy-title%7Btext-align:center!important%7D.mk-fancy-title.pattern-style%20span%7Bpadding:0%208px!important%7D.mk-fancy-title.mk-force-responsive%7Bfont-size:36px!important%7D%7D.mk-title-box%7Bline-height:100%25%7D.mk-title-box%20p%7Bmargin:0%7D.mk-title-box%20span%7Bpadding:4px%200%7D.mk-slideshow-box%20.mk-fancy-title%20span%7Bdisplay:inline-block;padding-top:20px%7D.mk-fancy-title%7Bmargin-bottom:18px%7D.mk-fancy-title.pattern-style%7Bbackground:url(../images/fancy-title-pattern.png)%20left%20center%20repeat-x%7D.mk-fancy-title.pattern-style.align-left%20span%7Bpadding:0%206px%200%200%7D.mk-fancy-title.pattern-style.align-right%20span%7Bpadding:0%200%200%206px%7D.mk-fancy-title.pattern-style.align-center%20span%7Bpadding:0%206px%7D.mk-fancy-title.color-gradient%20span%20i%7Bdisplay:table;font-style:normal%7D.mk-fancy-title.pattern-style.color-gradient%20span%7Bposition:relative%7D.mk-fancy-title.pattern-style.color-gradient%20span:after%7Bcontent:;width:100%25;height:100%25;display:block;position:absolute;top:0;left:0;z-index:1%7D.mk-fancy-title.color-gradient.align-left%20span%20i%7Bmargin:0%20auto%200%200%7D.mk-fancy-title.color-gradient.align-center%20span%20i%7Bmargin:0%20auto%200%7D.mk-fancy-title.color-gradient.align-right%20span%20i%7Bmargin:0%200%200%20auto%7D.mk-fancy-title.color-gradient%20span%20i%7Bposition:relative;z-index:2%7D.mk-fancy-title.shortcode-heading%7Bfont-weight:700;font-size:14px%7D.mk-fancy-title.pattern-style%20p%7Bdisplay:inline%7D.mk-fancy-title%20p%7Bmargin-bottom:0!important%7D@media%20handheld,only%20screen%20and%20(max-width:767px)%7B.mk-fancy-title%7Btext-align:center!important%7D.mk-fancy-title.pattern-style%20span%7Bpadding:0%208px!important%7D.mk-fancy-title.mk-force-responsive%7Bfont-size:36px!important%7D%7D.mk-title-box%7Bline-height:100%25%7D.mk-title-box%20p%7Bmargin:0%7D.mk-title-box%20span%7Bpadding:4px%200%7D.font-weight-l%7Bfont-weight:lighter%7D.font-weight-n%7Bfont-weight:400%7D.font-weight-b%7Bfont-weight:700%7D.font-weight-100%7Bfont-weight:100%7D.font-weight-200%7Bfont-weight:200%7D.font-weight-300%7Bfont-weight:300%7D.font-weight-400%7Bfont-weight:400%7D.font-weight-500%7Bfont-weight:500%7D.font-weight-600%7Bfont-weight:600%7D.font-weight-700%7Bfont-weight:700%7D.font-weight-800%7Bfont-weight:800%7D.font-weight-900%7Bfont-weight:900%7D.bold%7Bfont-weight:700%7D.italic%7Bfont-style:italic%7D.uppercase%7Btext-transform:uppercase%7D.text-left%7Btext-align:left%7D.text-right%7Btext-align:right%7D.text-center%7Btext-align:center%7D.block%7Bdisplay:block%7D.inline%7Bdisplay:inline-block%7D.table%7Bdisplay:table%7D.table-cell%7Bdisplay:table-cell%7D.flex%7Bdisplay:-webkit-box;display:-ms-flexbox;display:flex%7D.flex-column%7B-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column%7D.flex-wrap%7B-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row;-ms-flex-wrap:wrap;flex-wrap:wrap%7D.flex-items-center%7B-webkit-box-align:center;-ms-flex-align:center;align-items:center%7D.flex-items-baseline%7B-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline%7D.flex-items-start%7B-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start%7D.flex-items-end%7B-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end%7D.flex-items-stretch%7B-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch%7D.flex-self-center%7B-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center%7D.flex-self-baseline%7B-ms-flex-item-align:baseline;align-self:baseline%7D.flex-self-start%7B-ms-flex-item-align:start;align-self:flex-start%7D.flex-self-end%7B-ms-flex-item-align:end;align-self:flex-end%7D.flex-self-stretch%7B-ms-flex-item-align:stretch;-ms-grid-row-align:stretch;align-self:stretch%7D.flex-justify%7B-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between%7D.flex-center%7B-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center%7D.flex-auto%7B-webkit-box-flex:1;-ms-flex:1%201%20auto;flex:1%201%20auto%7D.flex-grow%7B-webkit-box-flex:1;-ms-flex:1%200%20auto;flex:1%200%20auto%7D.flex-none%7B-webkit-box-flex:0;-ms-flex:none;flex:none%7D.flex-first%7B-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1%7D.flex-last%7B-webkit-box-ordinal-group:100000;-ms-flex-order:99999;order:99999%7D.width-50%7Bwidth:50px%7D.width-full%7Bwidth:100%25%7D.width-x2%7Bwidth:200%25%7D.height-50%7Bheight:50px%7D.height-full%7Bheight:100%25%7D.left%7Bfloat:left%7D.right%7Bfloat:right%7D.clear:after,.clear:before%7Bcontent:%20;display:table%7D.clear:after%7Bclear:both%7D.relative%7Bposition:relative%7D.absolute%7Bposition:absolute%7D.mk-fixed%7Bposition:fixed%7D.z1%7Bz-index:1%7D.z2%7Bz-index:2%7D.z3%7Bz-index:3%7D.z4%7Bz-index:4%7D.z5%7Bz-index:5%7D.z999%7Bz-index:999%7D.pointer%7Bpointer-events:auto%7D.no-pointer%7Bpointer-events:none%7D.overflow-auto%7Boverflow:auto%7D.no-overflow%7Boverflow:hidden%7D.no-overflow-x%7Boverflow-x:hidden%7D.no-overflow-y%7Boverflow-y:hidden%7D.backface%7B-webkit-backface-visibility:visible;backface-visibility:visible%7D.no-backface%7B-webkit-backface-visibility:hidden;backface-visibility:hidden%7D.perspective%7B-webkit-transform:perspective(1000px);transform:perspective(1000px);-webkit-transform-style:preserve-3d;transform-style:preserve-3d%7D.origin-center%7B-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center%7D.fold-back-horizontal%7B-webkit-transform:translateX(-100%25)%20rotateY(-180deg);transform:translateX(-100%25)%20rotateY(-180deg)%7D.fold-back-vertical%7B-webkit-transform:translateX(-100%25)%20rotateX(-180deg);transform:translateX(-100%25)%20rotateX(-180deg)%7D.bezier-1%7Btransition:all%20.5s%20cubic-bezier(.645,.045,.355,1)%7D.left-0%7Bleft:0%7D.left-5%7Bleft:5px%7D.left-10%7Bleft:10px%7D.right-0%7Bright:0%7D.right-5%7Bright:5px%7D.right-10%7Bright:10px%7D.top-0%7Btop:0%7D.top-5%7Btop:5px%7D.top-10%7Btop:10px%7D.bottom-0%7Bbottom:0%7D.bottom-5%7Bbottom:5px%7D.bottom-10%7Bbottom:10px%7D.padding-10-pr%7Bpadding:10%25%7D.padding-x-10-pr%7Bpadding-left:10%25;padding-right:10%25%7D.padding-10%7Bpadding:10px%7D.padding-x-10%7Bpadding-left:10px;padding-right:10px%7D.padding-y-10%7Bpadding-top:10px;padding-bottom:10px%7D.padding-20%7Bpadding:20px%7D.padding-x-20%7Bpadding-left:20px;padding-right:20px%7D.padding-y-20%7Bpadding-top:20px;padding-bottom:20px%7D.margin-t-20%7Bmargin-top:20px%7D.margin-auto%7Bmargin:0%20auto%7D.is-hidden%7Bdisplay:none;visibility:hidden%7D.is-vis-hidden%7Bpoonter-events:none;visibility:hidden%7D.a_width-40%7Bwidth:40px%7D.a_width-100%7Bwidth:100px%7D.a_width-1000%7Bwidth:1000px%7D.a_width-100-per%7Bwidth:100%25%7D.a_width-auto%7Bwidth:auto%7D.a_color-success%7Bcolor:">try again</a>.
+         </p>
+         <p>
+          If you get this message very often, consider disabling
+          <a href="https://www.privoxy.org/3.0.26/user-manual/config.html#CONNECTION-SHARING">connection-sharing</a>
+          (which should be off by default). If that doesn't help, you may have to additionally
+          disable support for connection keep-alive by setting
+          <a href="https://www.privoxy.org/3.0.26/user-manual/config.html#KEEP-ALIVE-TIMEOUT">keep-alive-timeout</a>
+          to 0.
+         </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="box" colspan="2">
+        <h2>More Privoxy:</h2>
+        <ul><li><a href="http://config.privoxy.org/">Privoxy main page</a></li><li><a href="http://config.privoxy.org/die"><b>Shut down</b> - <em class="warning">Do not deploy this build in a production environment, this is a one click Denial Of Service attack!!!</em></a></li><li><a href="http://config.privoxy.org/show-status">View the current configuration</a></li><li><a href="http://config.privoxy.org/show-version">View the source code version numbers</a></li><li><a href="http://config.privoxy.org/client-tags">View or toggle the tags that can be set based on the clients address</a></li><li><a href="http://config.privoxy.org/show-request">View the request headers</a></li><li><a href="http://config.privoxy.org/show-url-info">Look up which actions apply to a URL and why</a></li><li><a href="http://config.privoxy.org/echo-pac">View the proxy-auto-config(PAC) script.</a></li><li><a href="https://www.privoxy.org/3.0.26/user-manual/">Documentation</a></li></ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="info" colspan="2">
+
+       <h2>Support and Service:</h2>
+        <p>
+          The Privoxy Team values your feedback.
+        </p>
+        <p>
+          Please have a look at the User Manual to learn how to
+          <a title="Privoxy User Manual: Contacting the developers, Bug Reporting and Feature Requests"
+           href="https://www.privoxy.org/3.0.26/user-manual/contact.html">get support or report problems</a>.
+        <p>
+          If you want to support the Privoxy Team, you can
+          <a href="https://www.privoxy.org/faq/general.html#PARTICIPATE">participate</a>
+          or <a href="https://www.privoxy.org/faq/general.html#DONATE">donate</a>.
+        </p>
+
+      </td>
+    </tr>
+
+<!--  -->
+
+  </table>
+
+</body>
+</html>
